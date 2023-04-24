@@ -7,18 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1E56F729DA058D009C70B4 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E56F629DA058D009C70B4 /* CatalogView.swift */; };
+		CE1E56F929DA060C009C70B4 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E56F829DA060C009C70B4 /* CartView.swift */; };
+		CE1E56FB29DA063A009C70B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E56FA29DA063A009C70B4 /* ProfileView.swift */; };
+		CE1E56FE29DA09A6009C70B4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E56FD29DA09A6009C70B4 /* Product.swift */; };
+		CE1E570229DA0AF9009C70B4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E570129DA0AF9009C70B4 /* ProductCell.swift */; };
+		CE1E570629DA1684009C70B4 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E570529DA1684009C70B4 /* CatalogViewModel.swift */; };
+		CE1E570929DA1F8E009C70B4 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E570829DA1F8E009C70B4 /* ProductDetailView.swift */; };
+		CE232B9229E6D93100DE264F /* AdminOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9129E6D93000DE264F /* AdminOrdersView.swift */; };
+		CE232B9729E6DDD600DE264F /* AdminOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9629E6DDD600DE264F /* AdminOrdersViewModel.swift */; };
+		CE232B9929E6E4EA00DE264F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9829E6E4EA00DE264F /* OrderView.swift */; };
+		CE232B9B29E6E57C00DE264F /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9A29E6E57C00DE264F /* OrderViewModel.swift */; };
+		CE232B9D29E7212C00DE264F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9C29E7212C00DE264F /* ImagePicker.swift */; };
+		CE232B9F29E724B700DE264F /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232B9E29E724B700DE264F /* AddProductView.swift */; };
+		CE232BA129E88C2300DE264F /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE232BA029E88C2300DE264F /* StorageService.swift */; };
+		CE69A9A829DB85D5004114E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE69A9A729DB85D5004114E8 /* GoogleService-Info.plist */; };
+		CE69A9B129DC2D40004114E8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69A9B029DC2D40004114E8 /* AuthService.swift */; };
+		CE69A9B629DCA498004114E8 /* MainTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69A9B529DCA498004114E8 /* MainTabBarViewModel.swift */; };
+		CE69A9B929DCB08C004114E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE69A9B829DCB08C004114E8 /* FirebaseAuth */; };
+		CE69A9BB29DCB08C004114E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE69A9BA29DCB08C004114E8 /* FirebaseFirestore */; };
+		CE69A9BD29DCB08C004114E8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CE69A9BC29DCB08C004114E8 /* FirebaseStorage */; };
+		CE69A9BF29DCB990004114E8 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69A9BE29DCB990004114E8 /* RandomUser.swift */; };
+		CE69A9C129DCBB7E004114E8 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69A9C029DCBB7E004114E8 /* DatabaseService.swift */; };
+		CE6A4F8B29D9B99B00597A62 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A4F8A29D9B99A00597A62 /* MainTabBar.swift */; };
+		CE6B8CB529DAE9050062C495 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B8CB429DAE9050062C495 /* ProductDetailViewModel.swift */; };
+		CE6B8CB729DB02150062C495 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B8CB629DB02150062C495 /* CartViewModel.swift */; };
+		CE6B8CB929DB02CC0062C495 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B8CB829DB02CC0062C495 /* Position.swift */; };
+		CE6B8CBB29DB14090062C495 /* PositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B8CBA29DB14090062C495 /* PositionCell.swift */; };
 		CEC489E529D8681200CCAC98 /* SushiShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC489E429D8681200CCAC98 /* SushiShopApp.swift */; };
-		CEC489E729D8681200CCAC98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC489E629D8681200CCAC98 /* ContentView.swift */; };
+		CEC489E729D8681200CCAC98 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC489E629D8681200CCAC98 /* AuthView.swift */; };
 		CEC489E929D8681F00CCAC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC489E829D8681F00CCAC98 /* Assets.xcassets */; };
 		CEC489EC29D8681F00CCAC98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC489EB29D8681F00CCAC98 /* Preview Assets.xcassets */; };
+		CEDD9CBF29E0674A005103ED /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD9CBE29E0674A005103ED /* ProfileViewModel.swift */; };
+		CEDD9CC129E1E0EF005103ED /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD9CC029E1E0EF005103ED /* Order.swift */; };
+		CEDD9CC329E1EBD6005103ED /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD9CC229E1EBD6005103ED /* OrderStatus.swift */; };
+		CEDD9CC529E35276005103ED /* OrderCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD9CC429E35276005103ED /* OrderCell .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1E56F629DA058D009C70B4 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		CE1E56F829DA060C009C70B4 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CE1E56FA29DA063A009C70B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE1E56FD29DA09A6009C70B4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CE1E570129DA0AF9009C70B4 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CE1E570529DA1684009C70B4 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		CE1E570829DA1F8E009C70B4 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		CE232B9129E6D93000DE264F /* AdminOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrdersView.swift; sourceTree = "<group>"; };
+		CE232B9629E6DDD600DE264F /* AdminOrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrdersViewModel.swift; sourceTree = "<group>"; };
+		CE232B9829E6E4EA00DE264F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CE232B9A29E6E57C00DE264F /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		CE232B9C29E7212C00DE264F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CE232B9E29E724B700DE264F /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		CE232BA029E88C2300DE264F /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CE69A9A729DB85D5004114E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE69A9B029DC2D40004114E8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		CE69A9B529DCA498004114E8 /* MainTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewModel.swift; sourceTree = "<group>"; };
+		CE69A9BE29DCB990004114E8 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		CE69A9C029DCBB7E004114E8 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		CE6A4F8A29D9B99A00597A62 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		CE6B8CB429DAE9050062C495 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		CE6B8CB629DB02150062C495 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		CE6B8CB829DB02CC0062C495 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		CE6B8CBA29DB14090062C495 /* PositionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionCell.swift; sourceTree = "<group>"; };
 		CEC489E129D8681200CCAC98 /* SushiShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC489E429D8681200CCAC98 /* SushiShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiShopApp.swift; sourceTree = "<group>"; };
-		CEC489E629D8681200CCAC98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEC489E629D8681200CCAC98 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		CEC489E829D8681F00CCAC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC489EB29D8681F00CCAC98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDD9CBE29E0674A005103ED /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CEDD9CC029E1E0EF005103ED /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CEDD9CC229E1EBD6005103ED /* OrderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		CEDD9CC429E35276005103ED /* OrderCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderCell .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +85,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE69A9B929DCB08C004114E8 /* FirebaseAuth in Frameworks */,
+				CE69A9BB29DCB08C004114E8 /* FirebaseFirestore in Frameworks */,
+				CE69A9BD29DCB08C004114E8 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1E56FC29DA096C009C70B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE232B9329E6D95300DE264F /* AdminInterface */,
+				CEC489E629D8681200CCAC98 /* AuthView.swift */,
+				CE6A4F8A29D9B99A00597A62 /* MainTabBar.swift */,
+				CE1E56F629DA058D009C70B4 /* CatalogView.swift */,
+				CE1E570829DA1F8E009C70B4 /* ProductDetailView.swift */,
+				CE1E56F829DA060C009C70B4 /* CartView.swift */,
+				CE1E56FA29DA063A009C70B4 /* ProfileView.swift */,
+				CE1E570329DA0B0E009C70B4 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1E570329DA0B0E009C70B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E570129DA0AF9009C70B4 /* ProductCell.swift */,
+				CE6B8CBA29DB14090062C495 /* PositionCell.swift */,
+				CEDD9CC429E35276005103ED /* OrderCell .swift */,
+				CE232B9C29E7212C00DE264F /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE1E570429DA1644009C70B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E56FD29DA09A6009C70B4 /* Product.swift */,
+				CE69A9BE29DCB990004114E8 /* RandomUser.swift */,
+				CE6B8CB829DB02CC0062C495 /* Position.swift */,
+				CEDD9CC029E1E0EF005103ED /* Order.swift */,
+				CEDD9CC229E1EBD6005103ED /* OrderStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE1E570729DA1697009C70B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E570529DA1684009C70B4 /* CatalogViewModel.swift */,
+				CE232B9A29E6E57C00DE264F /* OrderViewModel.swift */,
+				CE232B9629E6DDD600DE264F /* AdminOrdersViewModel.swift */,
+				CE6B8CB429DAE9050062C495 /* ProductDetailViewModel.swift */,
+				CE6B8CB629DB02150062C495 /* CartViewModel.swift */,
+				CE69A9B529DCA498004114E8 /* MainTabBarViewModel.swift */,
+				CEDD9CBE29E0674A005103ED /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE232B9329E6D95300DE264F /* AdminInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CE232B9129E6D93000DE264F /* AdminOrdersView.swift */,
+				CE232B9829E6E4EA00DE264F /* OrderView.swift */,
+				CE232B9E29E724B700DE264F /* AddProductView.swift */,
+			);
+			path = AdminInterface;
+			sourceTree = "<group>";
+		};
+		CE69A9B229DC2D52004114E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE69A9B029DC2D40004114E8 /* AuthService.swift */,
+				CE69A9C029DCBB7E004114E8 /* DatabaseService.swift */,
+				CE232BA029E88C2300DE264F /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CEC489D829D8681100CCAC98 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +186,12 @@
 			isa = PBXGroup;
 			children = (
 				CEC489E429D8681200CCAC98 /* SushiShopApp.swift */,
-				CEC489E629D8681200CCAC98 /* ContentView.swift */,
+				CE69A9B229DC2D52004114E8 /* Services */,
+				CE1E570429DA1644009C70B4 /* Model */,
+				CE1E56FC29DA096C009C70B4 /* View */,
+				CE1E570729DA1697009C70B4 /* ViewModel */,
 				CEC489E829D8681F00CCAC98 /* Assets.xcassets */,
+				CE69A9A729DB85D5004114E8 /* GoogleService-Info.plist */,
 				CEC489EA29D8681F00CCAC98 /* Preview Content */,
 			);
 			path = SushiShop;
@@ -83,6 +221,11 @@
 			dependencies = (
 			);
 			name = SushiShop;
+			packageProductDependencies = (
+				CE69A9B829DCB08C004114E8 /* FirebaseAuth */,
+				CE69A9BA29DCB08C004114E8 /* FirebaseFirestore */,
+				CE69A9BC29DCB08C004114E8 /* FirebaseStorage */,
+			);
 			productName = SushiShop;
 			productReference = CEC489E129D8681200CCAC98 /* SushiShop.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +254,9 @@
 				Base,
 			);
 			mainGroup = CEC489D829D8681100CCAC98;
+			packageReferences = (
+				CE69A9B729DCB08C004114E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CEC489E229D8681200CCAC98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +273,7 @@
 			files = (
 				CEC489EC29D8681F00CCAC98 /* Preview Assets.xcassets in Resources */,
 				CEC489E929D8681F00CCAC98 /* Assets.xcassets in Resources */,
+				CE69A9A829DB85D5004114E8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +284,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC489E729D8681200CCAC98 /* ContentView.swift in Sources */,
+				CE69A9C129DCBB7E004114E8 /* DatabaseService.swift in Sources */,
+				CE232B9729E6DDD600DE264F /* AdminOrdersViewModel.swift in Sources */,
+				CEDD9CBF29E0674A005103ED /* ProfileViewModel.swift in Sources */,
+				CE232B9D29E7212C00DE264F /* ImagePicker.swift in Sources */,
+				CEDD9CC129E1E0EF005103ED /* Order.swift in Sources */,
+				CE6B8CB729DB02150062C495 /* CartViewModel.swift in Sources */,
+				CE69A9B629DCA498004114E8 /* MainTabBarViewModel.swift in Sources */,
+				CE1E56F929DA060C009C70B4 /* CartView.swift in Sources */,
+				CE69A9BF29DCB990004114E8 /* RandomUser.swift in Sources */,
+				CE1E570929DA1F8E009C70B4 /* ProductDetailView.swift in Sources */,
+				CE6A4F8B29D9B99B00597A62 /* MainTabBar.swift in Sources */,
+				CEC489E729D8681200CCAC98 /* AuthView.swift in Sources */,
 				CEC489E529D8681200CCAC98 /* SushiShopApp.swift in Sources */,
+				CE232B9229E6D93100DE264F /* AdminOrdersView.swift in Sources */,
+				CE6B8CBB29DB14090062C495 /* PositionCell.swift in Sources */,
+				CEDD9CC329E1EBD6005103ED /* OrderStatus.swift in Sources */,
+				CE232B9F29E724B700DE264F /* AddProductView.swift in Sources */,
+				CE232BA129E88C2300DE264F /* StorageService.swift in Sources */,
+				CE6B8CB529DAE9050062C495 /* ProductDetailViewModel.swift in Sources */,
+				CE6B8CB929DB02CC0062C495 /* Position.swift in Sources */,
+				CE1E56FB29DA063A009C70B4 /* ProfileView.swift in Sources */,
+				CE1E570229DA0AF9009C70B4 /* ProductCell.swift in Sources */,
+				CE232B9929E6E4EA00DE264F /* OrderView.swift in Sources */,
+				CE1E56F729DA058D009C70B4 /* CatalogView.swift in Sources */,
+				CE69A9B129DC2D40004114E8 /* AuthService.swift in Sources */,
+				CEDD9CC529E35276005103ED /* OrderCell .swift in Sources */,
+				CE232B9B29E6E57C00DE264F /* OrderViewModel.swift in Sources */,
+				CE1E56FE29DA09A6009C70B4 /* Product.swift in Sources */,
+				CE1E570629DA1684009C70B4 /* CatalogViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +444,8 @@
 				DEVELOPMENT_TEAM = 2G26RLF6HL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the use of the camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow to open gallery to select photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +475,8 @@
 				DEVELOPMENT_TEAM = 2G26RLF6HL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow the use of the camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow to open gallery to select photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +517,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE69A9B729DCB08C004114E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE69A9B829DCB08C004114E8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE69A9B729DCB08C004114E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE69A9BA29DCB08C004114E8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE69A9B729DCB08C004114E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CE69A9BC29DCB08C004114E8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE69A9B729DCB08C004114E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEC489D929D8681100CCAC98 /* Project object */;
 }
