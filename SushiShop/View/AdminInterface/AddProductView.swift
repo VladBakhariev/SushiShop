@@ -14,6 +14,7 @@ struct AddProductView: View {
     @State private var title: String = ""
     @State private var descript: String = ""
     @State private var price: Int? = nil
+    @Environment (\.dismiss) var dismiss
     
     
     var body: some View {
@@ -37,6 +38,22 @@ struct AddProductView: View {
                 .padding()
             
             Button {
+                guard let price = price else {
+                    print("Unable to extract price from TextField")
+                    return
+                }
+                let product = Product(id: UUID().uuidString, title: title, price: price, descript: descript)
+                guard let imageData = image.jpegData(compressionQuality: 0.3) else { return }
+                DatabaseService.shared.setProduct(product: product, image: imageData) { result in
+                    switch result {
+                        
+                    case .success(let product):
+                        print(product.title)
+                        dismiss()
+                    case .failure(let error):
+                        print(error.localizedDescription)
+                    }
+                }
                 
             } label: {
                 Text("Save")
