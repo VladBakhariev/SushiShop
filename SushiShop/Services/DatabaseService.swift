@@ -134,6 +134,10 @@ class DatabaseService {
             
         }
     }
+    
+    func setProduct(product: Product, completion: @escaping (Result<Product, Error>) -> ()) {
+        
+    }
 }
     
     /*
