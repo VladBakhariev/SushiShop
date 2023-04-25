@@ -42,5 +42,18 @@ struct Product {
         self.descript = descript
     }
     
+    init?(doc: QueryDocumentSnapshot) {
+        let data = doc.data()
+        guard let id = data["id"] as? String else { return nil }
+        guard let title = data["title"] as? String else { return nil }
+        guard let price = data["price"] as? Int else { return nil }
+        guard let descript = data["descript"] as? String else { return nil }
+        
+        self.id = id
+        self.title = title
+        self.price = price
+        self.descript = descript
+    }
+    
 }
 
