@@ -168,7 +168,8 @@ class DatabaseService {
             var products = [Product]()
             
             for doc in docs {
-//                let product = Product()
+                guard let product = Product(doc: doc) else { return }
+                products.append(product)
             }
             
         }
