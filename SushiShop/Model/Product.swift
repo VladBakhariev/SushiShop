@@ -8,7 +8,7 @@
 import Foundation
 
 struct Product {
-    
+      
     var id: String
     var title: String
     var imageUrl: String = ""
@@ -27,6 +27,18 @@ struct Product {
         repres["descript"] = self.descript
         
         return repres
+    }
+    
+    internal init(id: String,
+                  title: String,
+                  imageUrl: String = "",
+                  price: Int,
+                  descript: String) {
+        self.id = id
+        self.title = title
+        self.imageUrl = imageUrl
+        self.price = price
+        self.descript = descript
     }
     
 }
