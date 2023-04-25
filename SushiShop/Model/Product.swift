@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 struct Product {
       
@@ -29,7 +30,7 @@ struct Product {
         return repres
     }
     
-    internal init(id: String,
+    internal init(id: String = UUID().uuidString,
                   title: String,
                   imageUrl: String = "",
                   price: Int,
