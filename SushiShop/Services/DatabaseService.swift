@@ -172,6 +172,8 @@ class DatabaseService {
                 products.append(product)
             }
             
+            completion(.success(products))
+            
         }
     }
     
