@@ -66,4 +66,17 @@ class CatalogViewModel: ObservableObject {
                 price: 1550,
                 descript: "The most elegant sushi set")
     ]
+    
+    func getProducts() {
+        DatabaseService.shared.getProducts { result in
+            switch result {
+                
+            case .success(let products):
+                self.sushi = products
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
 }
