@@ -54,7 +54,10 @@ struct CatalogView: View {
                 }
             }
 
-        }.navigationBarTitle("Catalog")
+        }.navigationTitle(Text("Catalog"))
+            .onAppear {
+                CatalogViewModel.shared.getProducts()
+            }
     }
 }
 
