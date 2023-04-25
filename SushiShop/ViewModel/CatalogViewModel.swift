@@ -39,7 +39,7 @@ class CatalogViewModel: ObservableObject {
                 descript: "The most elegant sushi set")
     ]
     
-    var sushi = [
+    @Published var sushi = [
         Product(id: "1",
                 title: "Japan Dragon",
                 imageUrl: "Not found",
