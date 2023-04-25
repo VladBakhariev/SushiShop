@@ -38,7 +38,7 @@ struct CatalogView: View {
             Section("Sushi") {
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(columns: layoutForSushi, spacing: 16) {
-                        ForEach(CatalogViewModel.shared.popularProducts, id: \.id) { item in
+                        ForEach(CatalogViewModel.shared.sushi, id: \.id) { item in
                             
                             NavigationLink {
                                 

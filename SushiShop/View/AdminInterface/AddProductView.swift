@@ -65,7 +65,7 @@ struct AddProductView: View {
             }
             
             Spacer()
-
+            
         }
         .padding()
         .sheet(isPresented: $showImagePicker) {
