@@ -1,5 +1,5 @@
 # SushiShop
-Сlient-server iOS application - sushi delivery service
+Сlient-server iOS application - Sushi Delivery Service
 
 <h3><strong>Description:</strong></h3>
 <p>The SushiShop app is a client-server <strong>iOS</strong> application built using the Swift programming language. It serves as a platform for a sushi delivery service. The app utilizes <strong>SwiftUI</strong> for the user interface and <strong>Firebase</strong> for backend integration.</p>
