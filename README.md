@@ -1,4 +1,4 @@
-# SushiShop
+# Sushi Shop
 Сlient-server iOS application - Sushi Delivery Service
 
 <h3><strong>Description:</strong></h3>
